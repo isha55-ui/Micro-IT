@@ -52,7 +52,7 @@
  • Touch-Friendly: Optimized for mobile interactions<br>
   
   <strong> Semantic Structure:</strong><br>
- • Proper HTML5 Elements: Uses semantic tags like header,nav,main,section.
+ • Proper HTML5 Elements: Uses semantic tags like header,nav,main,section.<br>
  • Accessibility: Proper alt tags, semantic markup, and keyboard navigation<br>
  • SEO-Friendly: Clean structure that search engines love<br>
    
