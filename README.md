@@ -1,6 +1,6 @@
 # Micro-IT
 <B>CALCULATOR</B>
-I've created a professional calculator app that meets all your requirements. 
+<br>I've created a professional calculator app that meets all your requirements.</br>
 Here are the key features:
 
 Design & Layout:
