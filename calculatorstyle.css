@@ -1,0 +1,167 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .calculator {
+            background: #2c3e50;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 320px;
+            border: 1px solid #34495e;
+        }
+
+        /* Display area styling */
+        .display {
+            background: #1a252f;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #34495e;
+            min-height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .display-input {
+            color: #bdc3c7;
+            font-size: 16px;
+            text-align: right;
+            min-height: 20px;
+            margin-bottom: 5px;
+            word-break: break-all;
+        }
+
+        .display-result {
+            color: #ecf0f1;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: right;
+            min-height: 35px;
+            word-break: break-all;
+        }
+
+        /* Button grid layout */
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            height: 60px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            user-select: none;
+        }
+
+        /* Number buttons */
+        .btn-number {
+            background: #34495e;
+            color: #ecf0f1;
+            border: 1px solid #4a5f7a;
+        }
+
+        .btn-number:hover {
+            background: #4a5f7a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-number:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Operator buttons */
+        .btn-operator {
+            background: #e74c3c;
+            color: white;
+            border: 1px solid #c0392b;
+        }
+
+        .btn-operator:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-operator:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Special function buttons */
+        .btn-function {
+            background: #f39c12;
+            color: white;
+            border: 1px solid #d68910;
+        }
+
+        .btn-function:hover {
+            background: #d68910;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-function:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Zero button spans two columns */
+        .btn-zero {
+            grid-column: span 2;
+        }
+
+        /* Responsive design */
+        @media (max-width: 480px) {
+            .calculator {
+                padding: 20px;
+                max-width: 280px;
+            }
+
+            .btn {
+                height: 55px;
+                font-size: 16px;
+            }
+
+            .display-result {
+                font-size: 24px;
+            }
+
+            .display-input {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .buttons {
+                gap: 8px;
+            }
+
+            .btn {
+                height: 50px;
+                font-size: 15px;
+            }
+        }
