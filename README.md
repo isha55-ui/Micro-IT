@@ -1,5 +1,5 @@
 # Micro-IT
-CALCULATOR 
+<B>CALCULATOR</B>
 I've created a professional calculator app that meets all your requirements. 
 Here are the key features:
 
