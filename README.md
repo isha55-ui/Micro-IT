@@ -8,7 +8,7 @@
   • CSS Grid layout for perfect button alignment (4x5 grid)<br>
   • Resembles a physical calculator with rounded corners and shadows<br>
   • Responsive design that works on mobile devices<br><br>
-
+  
   <strong>Functionality:</strong><br>
   • All basic operations: addition (+), subtraction (−), multiplication (×), division (÷)<br>
   • Digits 0-9 with proper number input handling<br>
@@ -35,7 +35,6 @@
 
 
 <B> PORTFOLIO </B>
-
 <p>
   I've created a stunning, professional portfolio website that showcases modern web development best practices! Here's what makes this design special:
   <br><br>
@@ -53,7 +52,7 @@
  • Touch-Friendly: Optimized for mobile interactions<br>
   
   <strong> Semantic Structure:</strong><br>
- • Proper HTML5 Elements: Uses semantic tags like <header>, <nav>, <main>, <section><br>
+ • Proper HTML5 Elements: Uses semantic tags like header,nav,main,section.
  • Accessibility: Proper alt tags, semantic markup, and keyboard navigation<br>
  • SEO-Friendly: Clean structure that search engines love<br>
    
